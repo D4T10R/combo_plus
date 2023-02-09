@@ -26,12 +26,22 @@ body {
     background-image: url("./img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50% ;
+}
+
+.container__caixa {
+    margin: 0 0 4em 4em;
+}
+
+.container__imagem {
+    margin: 2em 0 1em 0;
 }
 
 .container__botao {
@@ -42,6 +52,7 @@ body {
     padding: 1em;
     font-size: 1rem;
     font-weight: 400;
+    margin: 1em 0;
 
 }
 
@@ -53,4 +64,36 @@ body {
 .container__aviso {
     font-size: 12px;
     font-weight: 400;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-family: var(--font-principal);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.descricao__texto {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cinza-secundario);
+}
+
+.container__descricao {
+    padding: 1.35em;
+}
+
+.secundario__botao {
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 1em;
 }
