@@ -97,3 +97,47 @@ body {
     border-radius: 8px;
     margin-top: 1em;
 }
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* rodape */
+
+.rodape {
+    margin-top: 2em;
+    text-align: center;
+    padding: 4em;
+}
+
+.rodape__lista {
+    margin: 2em 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    list-style-type: none;
+}
+
+.rodape__lista__link {
+    font-size: 1rem;
+    font-family: var(--font-principal);
+    font-weight: 400;
+}
+
+.rodape__texto {
+    display: inline-block;
+    margin: 0;
+    width: 63%;
+    font-size: 0.8rem;
+    color: var(--cinza-secundario);
+    font-family: var(--font-principal);
+    font-weight: 400;
+}
